@@ -1,0 +1,54 @@
+<!-- Instituto Federal de Educação, Ciência e Tecnologia da Paraíba – IFPB
+		Curso Superior de Tecnologia em Redes de Computadores
+		Disciplina: Desenvolvimento WEB 		Professor: Luiz Carlos
+
+		Equipe: Marcus Paulo
+				Paulo de Tarso												
+
+
+Descrição do Projeto: Interface WEB para configurações de gerenciamento de rede
+					  Sistema idealizado para agilizar e facilitar o trabalho de
+					  analistas e técnicos na manutenção e configuração de servidores. -->
+
+
+
+
+		<!-- Função: Após escolher o servidor desejado, esta tela é aberta. Aqui o usuário deve inserir
+			 as credenciais de root para autenticacao. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LINUX WEB CONFIG</title>
+</head>
+<center>
+	<body>
+		<div align="center"><img src="/projetov1/imagem/config.jpg" width="200px"></div>
+		<br><br>
+
+		<div>Faça o login ou realize o cadastro no sistema!</div><br>
+		<br>
+		<br>	
+		<form action="autentic.php" >
+		<label for="name">Name</label>
+		<br><br>
+		<input type="text" id="name" name="name"><br>
+		<br>
+		<label for="password">Password</label>
+		<br><br>
+		<input type="password" id="password" name="password"><br>
+		<br>
+		<input type="submit" name="submit" value="login">
+		</form>
+		<br>
+		<br>
+		<div height="30px">
+			<a href="add.php">CADASTRO</a>
+		</div>
+	</center>
+				
+</body>
+</html>
+

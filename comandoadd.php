@@ -4,7 +4,7 @@ if(!isset($_SESSION['logado'])){
 	header('Location:tela-login.html');
 }
 ?>
-<!doctype html>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
